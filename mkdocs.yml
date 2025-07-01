@@ -1,8 +1,8 @@
-site_name: Dracula Theme Mkdocs
-repo_name: dracula/mkdocs
-repo_url: https://github.com/dracula/mkdocs
-site_url: https://www.fernandocelmer.com/
-copyright: Fernando Celmer
+site_name: Blacksun Theme for MkDocs
+repo_name: jastuccio/blacksun-mkdocs-theme
+repo_url: https://github.com/jastuccio/blacksun-mkdocs-theme
+site_url: https://jastuccio.github.io/blacksun-mkdocs-theme/
+copyright: Copyright &copy; jastuccio
 
 nav:
     - Home: index.md
@@ -13,11 +13,8 @@ nav:
       - nav/development/development-guide.md
       - nav/development/release-notes.md
 
-
 theme:
-  name: dracula
-  logo: assets/img/dracula.png
+  name: blacksun
+  logo: assets/img/blacksun.png
   favicon: assets/img/favicon.ico
-  # highlight_js: highlight.min.js
-  # highlight_css: atom-one-dark.min.css
-  # highlight_css: github.min.css
+  # You can add theme-specific features here later

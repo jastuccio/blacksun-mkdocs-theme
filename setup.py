@@ -1,46 +1,38 @@
-from setuptools import setup
-from mkdocs_dracula_theme import __version__
-
+from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-
 setup(
-    name="mkdocs-dracula-theme",
-    fullname='mkdocs-dracula-theme',
-    author='Fernando Celmer',
-    version=__version__,
-    author_email='email@fernandocelmer.com',
-    url='https://github.com/dracula/mkdocs',
-    description="🧛🏻‍♂️ Dark theme for Mkdocs",
+    name="blacksun-mkdocs-theme",
+    version="0.1.0",  # It's simpler to manage the version here for now
+    author='jastuccio',
+    author_email='joe@astucc.io',
+    url='https://github.com/jastuccio/blacksun-mkdocs-theme',
+    description="A dark, Dracula-inspired theme for MkDocs, named Black Sun.",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    license="MIT",
     classifiers=[
-        'Development Status :: 4 - Beta',
-        "Operating System :: OS Independent",
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
-        'Intended Audience :: Developers',
-        'Natural Language :: English',
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11",
-        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "Operating System :: OS Independent",
+        "Topic :: Documentation",
+        "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     install_requires=[
         'mkdocs>=1.4.3'
     ],
-    packages=["mkdocs_dracula_theme"],
-    package_data={'mkdocs_dracula_theme': ['*','*/*','*/*/*']},
+    packages=find_packages(),
     include_package_data=True,
     python_requires=">=3.6",
-    zip_safe=True,
+    zip_safe=False,
     entry_points={
         'mkdocs.themes': [
-            'dracula = mkdocs_dracula_theme',
+            'blacksun = mkdocs_blacksun_theme',
         ]
     },
 )

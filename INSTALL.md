@@ -18,9 +18,9 @@ pip install mkdocs-dracula-theme
 
 #### Activating theme
 
-After the theme is installed, edit your `mkdocs.yml` file and set the theme name to `dracula`:
+After the theme is installed, edit your `mkdocs.yml` file and set the theme name to `blacksun`:
 
 ```yml
 theme:
-    name: dracula
+    name: blacksun
 ```

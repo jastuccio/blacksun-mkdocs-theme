@@ -1,0 +1,2 @@
+# Include all files from the theme's directory
+graft mkdocs_blacksun_theme
