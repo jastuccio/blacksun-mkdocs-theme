@@ -1,51 +1,27 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
 # C extensions
 *.so
 
 # Distribution / packaging
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
 eggs/
 .eggs/
+lib/
+lib64/
+parts/
 sdist/
+var/
 wheels/
 *.egg-info/
 *.egg
-MANIFEST
-pip-log.txt
-# Installer logs
 
-# Test, Linter & Coverage Reports
-.cache
-.pytest_cache/
-.coverage
-.coverage.*
-htmlcov/
-.tox/
-.mypy_cache/
-
-# Environments
-.env
-.venv
-env/
-venv/
-
-# mkdocs documentation
-site/
-
-# Node.js dependencies
-node_modules/
-
-# OS-generated files
-.DS_Store
-Thumbs.db
-
-# IDE / Editor settings
-.idea/
-.vscode/
-*.swp
-.spyderproject
-.ropeproject
+# MkDocs
+/site/
